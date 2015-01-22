@@ -30,7 +30,7 @@ def ddns(ip):
     return _out
 
 def ipaddr():
-    _f = urllib.urlopen('http://ifconfig.me')
+    _f = urllib.urlopen('http://ns1.dnspod.net:6666/')
     _ip = _f.read()
     return _ip
 
